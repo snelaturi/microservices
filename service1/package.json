@@ -1,0 +1,28 @@
+{
+  "name": "goalservice",
+  "version": "1.0.0",
+  "description": "Goal Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "start": "node server.js"
+  },
+  "author": "Sidda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-validator": "^4.3.0",
+    "mathjs": "^4.3.0",
+    "moment": "^2.22.1",
+    "mongoose": "^4.11.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  }
+}
